@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+#lettere {
+    display: flex;
+    max-width: 51%;
+    margin: 3rem auto;
+    justify-content: center;
+}
+
+#lettere ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input[type='button'] {
+    background-color: rgb(10, 59, 221);
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+#parola {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.classDiv {
+    border-bottom: black solid 1px;
+    margin-right: 1rem;
+    width: 2rem;
+    text-align: center;
+}
+
+.divVite {
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+}
